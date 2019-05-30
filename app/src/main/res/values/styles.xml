@@ -4,9 +4,16 @@
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
 
         <!-- Customize your theme here. -->
+        <!--테마의 주요컬러-->
         <item name="colorPrimary">@color/colorPrimary</item>
+        <!--테마어두운주요컬러-->
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <!--테마포인트컬러-->
         <item name="colorAccent">@color/colorAccent</item>
+        <!--버튼컬러-->
+        <item name="colorButtonNormal">@color/colorButton</item>
+
+
     </style>
 
 </resources>

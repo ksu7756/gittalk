@@ -93,7 +93,7 @@ public class signin extends AppCompatActivity implements GoogleApiClient.OnConne
                         if(!task.isSuccessful()){
                             Toast.makeText(signin.this,"인증 실패",Toast.LENGTH_LONG).show();
                         }else{
-                            startActivity(new Intent(signin.this, MainActivity.class));
+                            startActivity(new Intent(signin.this, tabActivity.class));
                             finish();
                         }
                     }
